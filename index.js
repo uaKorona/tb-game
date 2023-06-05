@@ -2,6 +2,11 @@ const express = require('express');
 const app = express();
 // const io = socketIO(server);
 
+const http = require('http');
+const server = http.createServer(app);
+// const io = socketIO(server);
+
+
 // Serve static files for the SPA
 app.use(express.static('public'));
 
@@ -16,6 +21,6 @@ app.get('*', (req, res) => {
 });
 
 // Start the server on port 80
-const server = app.listen(80, () => {
+server.listen(80, () => {
     console.log('Server started on port 80');
 });
