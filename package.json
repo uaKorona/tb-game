@@ -16,6 +16,9 @@
     "url": "https://github.com/uaKorona/tb-game/issues"
   },
   "homepage": "https://github.com/uaKorona/tb-game#readme",
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "aws-sdk": "^2.1386.0",
     "express": "^4.18.2",
