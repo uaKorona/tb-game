@@ -5,10 +5,11 @@ phases:
     runtime-versions:
       nodejs: 18
     commands:
+      - cd tbGameSpa
       - npm ci
   build:
     commands:
-      - npm run buildFront
+      - npm run build
 
 artifacts:
   files:
