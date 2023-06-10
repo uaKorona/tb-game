@@ -36,6 +36,6 @@
     "typescript": "~5.0.2"
   },
   "engines": {
-    "node": "18.10.x"
+    "node": "14.20.x"
   }
 }
