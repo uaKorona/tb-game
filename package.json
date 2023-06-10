@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/uaKorona/tb-game#readme",
   "engines": {
-    "node": "14.20.x"
+    "node": "16.x"
   },
   "dependencies": {
     "aws-sdk": "^2.1386.0",
