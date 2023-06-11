@@ -6,7 +6,7 @@ phases:
       runtime-versions:
         nodejs: 14
         commands:
-          - n 18
+          - n 18.16.0
     commands:
       - cd tbGameSpa
       - npm ci
